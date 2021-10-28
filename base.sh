@@ -11,7 +11,7 @@ echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 w540.localdomain arch" >> /etc/hosts
 echo "192.168.1.53 Solitude" >> /etc/hosts  
 echo root:password | chpasswd #change password
-pacman -S grub efibootmgr networkmanager network-manager-applet wget dialog wpa_supplicant mtools dosfstools base-devel linux-headers avahi xdg-user-dirs xdg-utils nfs-utils inetutils dnsutils bluez bluez-utils cups hplip alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync acpi acpi_call virt-manager qemu qemu-arch-extra edk2-ovmf bridge-utils dnsmasq vde2 openbsd-netcat iptables-nft ipset flatpak nss-mdns acpid os-prober ntfs-3g terminus-font
+pacman -S grub efibootmgr networkmanager network-manager-applet broadcom-wl wget dialog wpa_supplicant mtools dosfstools base-devel linux-headers avahi xdg-user-dirs xdg-utils nfs-utils inetutils dnsutils bluez bluez-utils cups hplip alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync acpi acpi_call virt-manager qemu qemu-arch-extra edk2-ovmf bridge-utils dnsmasq vde2 openbsd-netcat iptables-nft ipset flatpak nss-mdns acpid os-prober ntfs-3g terminus-font
 pacman -S --noconfirm xf86-video-amdgpu
 pacman -S --noconfirm xf86-video-intel
 #pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
