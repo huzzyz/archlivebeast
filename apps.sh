@@ -7,7 +7,6 @@ nemo nemo-fileroller nemo-preview nemo-share wget gthumb gedit packagekit-qt5 co
 
 yay -Syyu $app_list --noconfirm
 
-systemctl enable ssdm
 
 echo 'PATH="$PATH:/$HOME/.local/bin"' >> ~/.bashrc
 source ~/.bashrc
@@ -17,3 +16,4 @@ echo '''
 Enabled=false              
 ''' | tee -a ~/.config/kwalletrc
 pip install normcap
+systemctl enable sddm
