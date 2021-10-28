@@ -1,4 +1,4 @@
-- # archlivebeast
+# archlivebeast
 - Beast
 - Format Paritions (mkfs.fat -F32 /dev/sdXXX (for efi) mkfs.ext4 /dev/sdXXX (for ext4))
 - Mount Partitions
