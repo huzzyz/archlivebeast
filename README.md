@@ -1,5 +1,4 @@
 # archlivebeast
-- Beast
 - Format Paritions (mkfs.fat -F32 /dev/sdXXX (for efi) mkfs.ext4 /dev/sdXXX (for ext4))
 - Mount Partitions
 - Install Base (pacstrap /mnt base linux linux-firmware git nano intel-ucode (or amd-ucode))
