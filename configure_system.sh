@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Define username for script usage
-username=$(huzzyz)
+username=$(huzzyz) #Change username here
 
 # Create Kitty config
 mkdir -p "/home/${username}/.config/kitty"
