@@ -1,5 +1,5 @@
-[bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-[archlinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![alt text](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![alt text](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 # archlivebeast
 Since we have the archinstall script doing most of the legwork. I've resorted to creating just ~~a custom script that installs all the packages and creates the proper entries for network shares and modifying the hosts~~ 4 main scripts now.
 
