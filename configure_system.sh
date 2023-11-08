@@ -4,10 +4,6 @@ set -euo pipefail
 # Define username for script usage
 username=$(whoami)
 
-# Set up KWin shortcuts and reconfigure
-kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,toggleDisplay"
-qdbus org.kde.KWin /KWin reconfigure
-
 # Create Kitty config
 mkdir -p "/home/${username}/.config/kitty"
 cat > "/home/${username}/.config/kitty/kitty.conf" <<EOF
