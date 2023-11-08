@@ -9,7 +9,7 @@ fastfetch autofs cifs-utils vlc flameshot packagekit-qt5 ocs-url pinta vdhcoapp-
 ttf-liberation hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good \
 ttf-droid ttf-dejavu aspell-en icedtea-web ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool \
 libmythes libreoffice-fresh normcap xdg-desktop-portal flameshot latte-dock-git kdeconnect freetube \
-w3m-img imagemagick bluedevil bluez bluez-utils pfetch
+w3m-img imagemagick bluedevil bluez bluez-utils pfetch corectrl-git
 
 # Install Flatpak application
 flatpak install -y flathub tv.plex.PlexDesktop
