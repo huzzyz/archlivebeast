@@ -21,13 +21,6 @@ enable_audio_bell no
 background_opacity 0.8
 EOF
 
-# Disable KWallet
-mkdir -p "/home/${username}/.config"
-cat > "/home/${username}/.config/kwalletrc" <<EOF
-[Wallet]
-Enabled=false
-EOF
-
 # Enable and start Bluetooth services
 sudo systemctl enable --now bluetooth
 
